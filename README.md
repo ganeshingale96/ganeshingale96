@@ -1,111 +1,271 @@
-# 👋 Hi, I'm Ganesh Ingale
+<!-- ============ HEADER ============ -->
+<div align="center">
 
-### 🎯 Data Science Engineering Student | Python Developer | Machine Learning & Data Analysis Enthusiast
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24c6dc&height=240&section=header&text=GANESH%20INGALE&fontSize=64&fontColor=ffffff&fontAlignY=42&desc=//%20DATA%20·%20AI%20·%20CODE&descSize=18&descAlignY=65&animation=fadeIn" width="100%" alt="header"/>
 
----
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=24C6DC&center=true&vCenter=true&width=720&height=50&lines=Python+Developer;Data+Analyst+%7C+Power+BI+%26+SQL;AI%2FML+%26+Computer+Vision+Engineer;Building+end-to-end+data+%26+AI+systems" alt="Typing SVG"/></a>
 
-## 🚀 About Me
+<br/>
 
-I'm a final-year **Computer Science Engineering (Data Science)** student at **Dr. D. Y. Patil Pratishthan's College of Engineering, Salokhenagar, Kolhapur** (affiliated to Shivaji University, Kolhapur), passionate about turning raw data into actionable insights. My focus areas span **Machine Learning, Data Analysis, Power BI, and Python backend development**. I enjoy solving real-world problems with Python, SQL, and Power BI, and I'm always building something new to learn by doing.
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_ENTRY--LEVEL_ROLES-00e676?style=for-the-badge&labelColor=0f0c29"/>
+<img src="https://img.shields.io/badge/BASE-PUNE,_INDIA-24c6dc?style=for-the-badge&labelColor=0f0c29"/>
+<img src="https://img.shields.io/badge/B.TECH-CSE_(DATA_SCIENCE)_·_2026-7f5af0?style=for-the-badge&labelColor=0f0c29"/>
 
-- 🔭 Currently building end-to-end ML and BI projects — from facial recognition to explainable AI to interactive dashboards
-- 🌱 Currently deepening my skills in Deep Learning (ANN, CNN) and full-stack development (Django REST API)
-- 📫 Reach me at **ganeshingale9699@gmail.com**
+<br/><br/>
 
----
+<a href="https://www.linkedin.com/in/ganesh-ingale-engineer"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:ganeshingale9699@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/ganeshingale96?tab=repositories"><img src="https://img.shields.io/badge/Repos-Explore-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
-## 📊 Skills & Tech Stack
+</div>
 
-**Programming:** Python, SQL, JavaScript (Basic), HTML5, CSS3, C
+<br/>
 
-**Backend & Databases:** Django, Flask, REST API, OOP, CRUD Operations · MySQL, PostgreSQL/PL-SQL (Joins, Subqueries, CTEs, Window Functions, Views, Indexes, Normalization)
+<!-- ============ TERMINAL ============ -->
+## `>_` whoami
 
-**Data Analysis & BI:** Pandas, NumPy, EDA, Statistics, Power BI, DAX, Power Query, Excel, KPI Dashboards
+```python
+class GaneshIngale:
+    role      = ["Python Developer", "Data Analyst", "AI/ML Engineer"]
+    education = "B.Tech CSE (Data Science), Shivaji University — 2026"
+    location  = "Pune, India"
+    internship = "Application Developer @ Nexanova Protech (Jul–Dec 2025)"
 
-**Machine Learning:** Scikit-learn, OpenCV, face_recognition, Deep Learning (ANN, CNN), SHAP (Explainable AI), Regression, Classification, Clustering
+    focus = {
+        "python":    "backend modules, Django / Flask, SQL-driven apps",
+        "analytics": "SQL, Power BI, DAX, EDA, KPI dashboards",
+        "ai_ml":     "OpenCV, YOLOv5, scikit-learn, SHAP, n8n + ML APIs",
+    }
 
-**Tools & Platforms:** Git, GitHub, VS Code, Jupyter Notebook, SQLite, MySQL Workbench
+    currently_learning = ["Deep Learning (ANN, CNN)", "Django REST Framework"]
+    philosophy = "Raw data -> insight -> working system."
 
----
+    def open_to(self):
+        return "Entry-level Python / Data / AI-ML roles"
+```
 
-## 🏅 Certifications
+<!-- ============ PIPELINE ============ -->
+## 🧬 How I Work
 
-- **FirstBit Certified Professional** – Python Data Science with Fullstack (2025–2026)
-- **Data Science Job Simulation** – British Airways (Forage)
-- **Data Analytics Job Simulation** – Deloitte (Forage)
-- **Power BI Job Simulation** – PwC (Forage)
-- **GenAI-Powered Data Analytics Job Simulation** – Tata (Forage)
-- **Data Visualisation: Empowering Business with Effective Insights** – Tata (Forage)
-- **Cybersecurity Analyst Job Simulation** – Tata (Forage)
-- **AI Skills Passport** – EY & Microsoft
-- **Basics of Computer Networking** – Great Learning Academy
-- **Power BI Hackathon** (Participation) – Dr. D. Y. Patil College of Engineering, Kolhapur
-- **Python (Basic)** – HackerRank
+```mermaid
+flowchart LR
+    A[("🗄️ Raw Data<br/>SQL · CSV · Video")] --> B["🧹 Clean & Engineer<br/>Pandas · Power Query"]
+    B --> C["🧠 Model<br/>scikit-learn · YOLOv5 · SHAP"]
+    C --> D["⚙️ Serve<br/>Flask API · n8n"]
+    D --> E["📊 Deliver<br/>Power BI · Excel · Gmail Alerts"]
+    style A fill:#0f0c29,stroke:#24c6dc,color:#fff
+    style B fill:#302b63,stroke:#24c6dc,color:#fff
+    style C fill:#302b63,stroke:#7f5af0,color:#fff
+    style D fill:#302b63,stroke:#7f5af0,color:#fff
+    style E fill:#0f0c29,stroke:#00e676,color:#fff
+```
 
----
+<!-- ============ STACK ============ -->
+## ⚡ Tech Arsenal
 
-## 💼 Experience
+<div align="center">
 
-**Application Developer Intern — Nexanova Protech Pvt. Ltd.** | *Jul 2025 – Dec 2025*
-- Built Python-based backend modules to process, structure, and clean large volumes of raw data.
-- Applied SDLC and Git-based version control in an agile team environment.
+<img src="https://skillicons.dev/icons?i=py,django,flask,js,html,css&theme=dark" alt="dev"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,pandas,numpy,opencv,powerbi&theme=dark" alt="data"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="tools"/>
+<br/><br/>
 
-**Python Developer Intern — Anvistar ITS Pvt. Ltd.** | *Jul 2025 – Aug 2025*
-- Built backend features for the Skyline CRM project using Python and Django.
-- Implemented SQL operations — insertion, retrieval, filtering, and reporting — for CRUD-based application logic.
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/YOLOv5-00FFFF?style=flat-square&logo=yolo&logoColor=black"/>
+<img src="https://img.shields.io/badge/SHAP-Explainable_AI-7f5af0?style=flat-square"/>
+<img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/DAX-Power_Query-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/REST_API-009688?style=flat-square"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
 
----
+</div>
 
-## 🌟 Featured Projects
+<details>
+<summary><b>📚 Full skill matrix</b></summary>
+<br/>
 
-### 🧑‍💼 [SmartHireX-AI](https://github.com/ganeshingale96/SmartHireX-AI) — AI-Powered Hiring Intelligence Platform
+| Domain | Skills |
+|---|---|
+| **Programming** | Python, SQL, JavaScript (Basic), HTML5, CSS3, OOP |
+| **Backend** | Django, Flask, REST API, CRUD |
+| **Databases** | MySQL, PostgreSQL, SQLite · Joins, Subqueries, CTEs, Window Functions, Normalization |
+| **Data & BI** | Pandas, NumPy, EDA, Statistics, Power BI, DAX, Power Query, Excel, Matplotlib, Seaborn |
+| **ML & AI** | Regression, Classification, Clustering, ANN, CNN, Feature Engineering, Model Evaluation, SHAP |
+| **Computer Vision** | OpenCV, YOLOv5, face_recognition |
+| **Automation** | n8n, Webhooks, API Integration, Excel Report Automation |
+| **Tools** | Git, GitHub, VS Code, Jupyter Notebook |
+
+</details>
+
+<!-- ============ PROJECTS ============ -->
+## 🚀 Mission Log — Featured Projects
+
+### 🤖 AI · ML · Computer Vision
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧑‍💼 [SmartHireX-AI](https://github.com/ganeshingale96/SmartHireX-AI)
+Predicts hiring probability and uses **SHAP** to explain the top factors behind every prediction, with confidence scores and percentile ranking.
+
 `Python` `Scikit-learn` `SHAP`
-Predicts candidate hiring probability from recruitment data and uses SHAP (Explainable AI) to surface the top factors driving each prediction, with confidence scores and percentile ranking.
 
-### 👁️ [EyeMark](https://github.com/ganeshingale96/EyeMark) — Anti-Proxy Attendance System
-`Python` `OpenCV` `face_recognition` `SQLite`
-Facial-recognition attendance system using 128-dimensional face embeddings to verify identity and block proxy attendance, with automated daily Excel reports.
+</td>
+<td width="50%" valign="top">
 
-### 🛍️ [RetailPulse](https://github.com/ganeshingale96/RetailPulse) — Customer Shopping Behavior Analytics Dashboard
+#### 👁️ [EyeMark](https://github.com/ganeshingale96/EyeMark)
+Anti-proxy attendance using **128-D face embeddings** for real-time verification, a `UNIQUE(roll_no, date)` integrity constraint, and automated daily Excel reports.
+
+`Python` `OpenCV` `face_recognition` `SQLite` `Pandas`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🚦 [Smart Traffic Management](https://github.com/ganeshingale96/Smart-traffic-managment-TY-project-)
+Detects, classifies and counts vehicles from live video with **YOLOv5**, then adapts signal timing to live traffic density.
+
+`Python` `OpenCV` `YOLOv5` `Deep Learning`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔗 [AI Workflow Automation (n8n)](https://github.com/ganeshingale96/AI-Powered-Workflow-Automation-using-n8n)
+Webhook → validate & clean → IF/Switch routing → **Flask ML API** → predictions to Google Sheets, with automated Gmail alerts and daily summaries.
+
+`n8n` `Python` `Flask` `Webhooks` `REST API`
+
+</td>
+</tr>
+</table>
+
+### 📊 Data Analytics
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🛍️ [RetailPulse](https://github.com/ganeshingale96/RetailPulse)
+Customer behavior dashboard: KPI cards, regional analysis, dynamic slicers.
+
 `Power BI` `DAX` `Power Query`
-Interactive dashboard analyzing shopping behavior, sales trends, and payment preferences, with KPI cards, regional analysis, and dynamic filters.
 
-### 🛒 [Blinkit Sales Analysis](https://github.com/ganeshingale96/Blinkit_Sales_Analysis_PowerBi) — Power BI Sales Dashboard
-`Power BI` `Data Cleaning` `Data Visualization`
-Cleaned and analyzed Blinkit sales data to uncover sales trends, product performance, and revenue patterns.
+</td>
+<td width="33%" valign="top">
 
-### 🚦 [Smart Traffic Management System](https://github.com/ganeshingale96/Smart-traffic-managment-TY-project-)
-`Python` `OpenCV` `YOLOv5`
-Real-time computer vision system that dynamically adjusts traffic signal timing based on live vehicle density detection.
+#### 🛒 [Blinkit Sales Analysis](https://github.com/ganeshingale96/Blinkit_Sales_Analysis_PowerBi)
+Sales trends, product performance and revenue patterns from cleaned data.
 
-### ✈️ [Tourism Management System](https://github.com/ganeshingale96/Tourism-Management-System-Pure-Python)
-`Python` `OOP` `File Handling` `Authentication`
-Console-based application with separate Admin and Customer modules for managing travel packages, bookings, and reports.
+`Power BI` `Data Cleaning`
 
-### 📚 [Library Management System](https://github.com/ganeshingale96/Library-Management-System)
-`Python` `MySQL`
-Automates book issue, return, and stock-tracking workflows with a normalized MySQL schema.
+</td>
+<td width="33%" valign="top">
 
-### 🗄️ [TY Database Project](https://github.com/ganeshingale96/TY-Database-Project)
+#### 🗄️ [TY Database Project](https://github.com/ganeshingale96/TY-Database-Project)
+Normalized relational schemas with complex joins, subqueries, aggregations.
+
 `SQL` `Database Design`
-Relational database schemas applying normalization principles, with complex queries involving joins, subqueries, and aggregations.
 
-### 🧮 [Apple Mobile Calculator](https://github.com/ganeshingale96/Apple-mobile-calculator)
+</td>
+</tr>
+</table>
+
+### 🐍 Python & Full Stack
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 📚 [Library Management System](https://github.com/ganeshingale96/Library-Management-System)
+CRUD app automating issue, return and stock tracking on a normalized MySQL schema.
+
+`Python` `MySQL`
+
+</td>
+<td width="33%" valign="top">
+
+#### ✈️ [Tourism Management System](https://github.com/ganeshingale96/Tourism-Management-System-Pure-Python)
+Admin and Customer modules, file-based authentication, reports.
+
+`Python` `OOP`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🧮 [Apple Mobile Calculator](https://github.com/ganeshingale96/Apple-mobile-calculator)
+Responsive mobile-style web calculator.
+
 `HTML` `CSS` `JavaScript`
-Fully functional, responsive web-based calculator with a modern, mobile-style UI.
 
----
+</td>
+</tr>
+</table>
 
-## 📈 GitHub Analytics
+<!-- ============ EXPERIENCE ============ -->
+## 🛰️ Experience Timeline
 
-![Ganesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ganeshingale96&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshingale96&layout=compact)
-![GitHub Streak](https://streak-stats.demolab.com/?user=ganeshingale96)
+```mermaid
+timeline
+    title Journey
+    2022 : HSC completed
+         : Started B.Tech CSE (Data Science)
+    2025 : Python Data Science & Full Stack training (FirstBit)
+         : Application Developer Intern at Nexanova Protech
+         : Forage simulations (BA, Deloitte, PwC, Tata)
+    2026 : B.Tech graduate, Shivaji University
+         : HackerRank Python (Basic)
+         : Open to entry-level roles
+```
 
----
+**Application Developer Intern — Nexanova Protech Pvt. Ltd.** · *Jul 2025 – Dec 2025*
+- Developed and maintained Python-based backend modules supporting structured data processing workflows.
+- Collaborated using SDLC practices and Git version control in an agile workflow.
 
-## 🌐 Connect with Me
+## 🏅 Credentials
 
-[LinkedIn](https://www.linkedin.com/in/ganesh-ingale-engineer) · [Email](mailto:ganeshingale9699@gmail.com)
+| | |
+|---|---|
+| 🎓 **B.Tech CSE (Data Science)** | Shivaji University, Kolhapur · 2026 · CGPA 7.45 |
+| 📜 **FirstBit Certified Professional** | Python Data Science with Fullstack (Jul 2025 – Feb 2026) |
+| 🐍 **HackerRank** | Python (Basic), Jul 2026 |
+| 💼 **Forage Simulations** | British Airways · Deloitte · PwC · Tata (×2) |
 
-> ✨ *Transforming data into actionable insights and engineering solutions that make a tangible impact.*
+<!-- ============ ANALYTICS ============ -->
+## 📡 Live Telemetry
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=ganeshingale96&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc&icon_color=7f5af0" alt="stats"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshingale96&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc" alt="langs"/>
+
+<img src="https://streak-stats.demolab.com/?user=ganeshingale96&theme=tokyonight&hide_border=true&background=0f0c29&ring=24c6dc&fire=7f5af0&currStreakLabel=24c6dc" alt="streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshingale96&bg_color=0f0c29&color=24c6dc&line=7f5af0&point=ffffff&area=true&hide_border=true" width="100%" alt="activity"/>
+
+<!-- Contribution snake: needs the workflow in .github/workflows/snake.yml -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ganeshingale96/ganeshingale96/output/github-snake-dark.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/ganeshingale96/ganeshingale96/output/github-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div align="center">
+
+<br/>
+
+```
+┌──────────────────────────────────────────────┐
+│  > Turning data into insight, and insight    │
+│    into systems that work.                   │
+└──────────────────────────────────────────────┘
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="footer"/>
+
+</div>
