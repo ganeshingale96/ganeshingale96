@@ -29,7 +29,7 @@ class GaneshIngale:
     role      = ["Python Developer", "Data Analyst", "AI/ML Engineer"]
     education = "B.Tech CSE (Data Science), Shivaji University — 2026"
     location  = "Pune, India"
-    internship = "Application Developer @ Nexanova Protech (Jul–Dec 2025)"
+    internship = "Application Developer @ Nexanova Protech (Jul 2025 - Jan 2026)"
 
     focus = {
         "python":    "backend modules, Django / Flask, SQL-driven apps",
