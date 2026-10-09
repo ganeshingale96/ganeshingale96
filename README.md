@@ -205,6 +205,69 @@ Responsive mobile-style web calculator.
 </tr>
 </table>
 
+<!-- ============ UNDER THE HOOD ============ -->
+## 🔬 Under the Hood
+
+<details>
+<summary><b>👁️ EyeMark — attendance pipeline</b></summary>
+
+```mermaid
+flowchart LR
+    A["📷 Camera Frame"] --> B["Face Detection<br/>OpenCV"]
+    B --> C["128-D Embedding<br/>face_recognition"]
+    C --> D{"Match in<br/>student DB?"}
+    D -- Yes --> E["Mark Present<br/>UNIQUE(roll_no, date)"]
+    D -- No --> F["Reject / Unknown"]
+    E --> G["📄 Daily Excel Report<br/>Pandas + Openpyxl"]
+    style D fill:#302b63,stroke:#7f5af0,color:#fff
+    style E fill:#0f0c29,stroke:#00e676,color:#fff
+```
+</details>
+
+<details>
+<summary><b>🚦 Smart Traffic — adaptive signal logic</b></summary>
+
+```mermaid
+flowchart LR
+    A["🎥 Live Video Feed"] --> B["YOLOv5<br/>Detect + Classify"]
+    B --> C["Count Vehicles<br/>per Lane"]
+    C --> D["Density Logic"]
+    D --> E["🚦 Adjust Signal Timing"]
+    style B fill:#302b63,stroke:#24c6dc,color:#fff
+    style E fill:#0f0c29,stroke:#00e676,color:#fff
+```
+</details>
+
+<details>
+<summary><b>🔗 n8n Automation — ML-in-the-loop workflow</b></summary>
+
+```mermaid
+flowchart LR
+    A["Webhook"] --> B["Validate & Clean"]
+    B --> C{"IF / Switch<br/>Routing"}
+    C --> D["HTTP Request<br/>Flask ML API"]
+    D --> E["📊 Google Sheets<br/>Predictions"]
+    D --> F["✉️ Gmail Alerts"]
+    E --> G["📰 Daily Summary Report"]
+    style C fill:#302b63,stroke:#7f5af0,color:#fff
+    style D fill:#302b63,stroke:#24c6dc,color:#fff
+```
+</details>
+
+<details>
+<summary><b>🧑‍💼 SmartHireX-AI — explainable prediction</b></summary>
+
+```mermaid
+flowchart LR
+    A["Recruitment Data"] --> B["Preprocess &<br/>Feature Engineering"]
+    B --> C["Scikit-learn Model"]
+    C --> D["Hiring Probability<br/>+ Confidence + Percentile"]
+    C --> E["SHAP<br/>Top Factors per Prediction"]
+    style C fill:#302b63,stroke:#7f5af0,color:#fff
+    style E fill:#0f0c29,stroke:#24c6dc,color:#fff
+```
+</details>
+
 <!-- ============ EXPERIENCE ============ -->
 ## 🛰️ Experience Timeline
 
@@ -234,6 +297,52 @@ timeline
 | 🐍 **HackerRank** | Python (Basic), Jul 2026 |
 | 💼 **Forage Simulations** | British Airways · Deloitte · PwC · Tata (×2) |
 
+<!-- ============ ROADMAP ============ -->
+## 🧭 Skill Roadmap
+
+```mermaid
+flowchart LR
+    subgraph NOW["✅ Solid"]
+        A1["Python · SQL · Pandas"]
+        A2["Power BI · DAX · EDA"]
+        A3["Django · Flask · REST"]
+        A4["OpenCV · YOLOv5 · scikit-learn"]
+    end
+    subgraph LEARNING["🔄 In Progress"]
+        B1["Deep Learning<br/>ANN · CNN"]
+        B2["Django REST Framework"]
+    end
+    subgraph NEXT["🔭 Exploring Next"]
+        C1["NLP · Transformers"]
+        C2["RAG"]
+    end
+    NOW --> LEARNING --> NEXT
+    style NOW fill:#0f0c29,stroke:#00e676,color:#fff
+    style LEARNING fill:#0f0c29,stroke:#24c6dc,color:#fff
+    style NEXT fill:#0f0c29,stroke:#7f5af0,color:#fff
+```
+
+## 🎯 What I'm Looking For
+
+| | |
+|---|---|
+| **Roles** | Python Developer · Data Analyst · AI/ML Engineer (entry-level) |
+| **Strongest at** | Turning raw data into dashboards, models and working APIs |
+| **Location** | Pune, India (open to opportunities) |
+| **Contact** | [ganeshingale9699@gmail.com](mailto:ganeshingale9699@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ganesh-ingale-engineer) |
+
+## 📌 Pinned Repos
+
+<div align="center">
+
+<a href="https://github.com/ganeshingale96/SmartHireX-AI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ganeshingale96&repo=SmartHireX-AI&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc" alt="SmartHireX-AI"/></a>
+<a href="https://github.com/ganeshingale96/EyeMark"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ganeshingale96&repo=EyeMark&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc" alt="EyeMark"/></a>
+<br/>
+<a href="https://github.com/ganeshingale96/RetailPulse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ganeshingale96&repo=RetailPulse&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc" alt="RetailPulse"/></a>
+<a href="https://github.com/ganeshingale96/Smart-traffic-managment-TY-project-"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ganeshingale96&repo=Smart-traffic-managment-TY-project-&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=24c6dc" alt="Smart Traffic"/></a>
+
+</div>
+
 <!-- ============ ANALYTICS ============ -->
 ## 📡 Live Telemetry
 
@@ -245,6 +354,8 @@ timeline
 <img src="https://streak-stats.demolab.com/?user=ganeshingale96&theme=tokyonight&hide_border=true&background=0f0c29&ring=24c6dc&fire=7f5af0&currStreakLabel=24c6dc" alt="streak"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshingale96&bg_color=0f0c29&color=24c6dc&line=7f5af0&point=ffffff&area=true&hide_border=true" width="100%" alt="activity"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ganeshingale96&theme=onedark&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" width="100%" alt="trophies"/>
 
 <!-- Contribution snake: needs the workflow in .github/workflows/snake.yml -->
 <picture>
@@ -265,6 +376,8 @@ timeline
 │    into systems that work.                   │
 └──────────────────────────────────────────────┘
 ```
+
+<img src="https://komarev.com/ghpvc/?username=ganeshingale96&label=PROFILE+VIEWS&color=24c6dc&style=for-the-badge" alt="views"/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="footer"/>
 
